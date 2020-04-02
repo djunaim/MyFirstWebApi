@@ -11,6 +11,7 @@ namespace MyFirstWebApi
 {
     public class Program
     {
+        // static keyword means there is 1 thing shared across all instances of the class
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
